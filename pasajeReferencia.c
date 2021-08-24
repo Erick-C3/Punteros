@@ -18,7 +18,7 @@ void cambiarDni(int *dniPersona){//
 int main(){
 	
 	int dni = DNI_NULO;
-	cambiarDni(&dni);//pasar la direccion de memoria de la variable dni 0X23BF52
+	cambiarDni(&dni);//pasar la direccion de memoria de la variable dni, algo asi: 0X23BF52
 	printf("Dni ingresado: %i\n", dni );
 
 	return 0;
