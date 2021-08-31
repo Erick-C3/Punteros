@@ -6,6 +6,9 @@ const int SIN_OPCION = -1;
 
 /*
 	Descripcion: da la opcion de cambiar el numero de contacto
+	Pre:-.
+	Post: Si el usuario cambio su info devuelve "CAMBIAR_NUM" y caso contrario "NO_CAMBIAR_NUM"
+		  Los parametros por referencia se alteran dependiendo de la opcion del usuario
 */
 int opcCambiarNumContacto(int *puntNumContacto, char *puntInicialUsuario){
 	int opcionUsuario = SIN_OPCION;
